@@ -1,1 +1,32 @@
-32wdswedwedw
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.mainForm{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 10%;
+}
+
+.logo{
+    width: 25%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.logoIMG{
+    block-size: 100%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    
+}

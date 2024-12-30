@@ -1,32 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+
+head{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.mainBody{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .mainForm{
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 70%;
+
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    align-content: center;
-    padding-top: 10%;
 }
 
 .logo{
-    width: 25%;
-    height: 120px;
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+
+    flex-basis: 33%;
 }
 
 .logoIMG{
-    block-size: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .inputs{
+    min-height: 80px;
+    width: 350px;
+    height: 80px;
+
+    margin-top: 40px;
+    padding-right: 15px;
+
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
+
+    flex-basis: 33%;
+}
+
+.inputLine{
+    font-size: 20px;
+    flex-basis: 45%;
+    border-color: #0202024d;
+    border-radius: 10px;
+}
+
+.userPhoneNumber{
+    background-image :url("/log-in/images/phone.ico");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px;
+    padding-left: 40px;
+}
+
+.userPass{
+    background-image :url("/log-in/images/pass.ico");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px;
+    padding-left: 40px;
+}
+
+.buttons{
+    width: 400px;
+    height: 60px;
+
+    margin-top: 30px;
+    padding-right: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+
+    flex-basis: 33%;
+}
+
+.button {
+    height: 55px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(37, 37, 37);
+    transition: .1s linear;
+    background: #0202024d;
+    flex-basis: 49%;
+}
+
+.button:hover {
+    box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 2px #0000009a;
+}
+
+.button:active{
+    background-color: white;
+}
+
+.grayLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+
+    width: 100%;
+    height: 70px;
+
+    background-color: #a1a1a13f;
+    color: rgb(65, 65, 65);
+
+    font-size: 40px;
+    word-spacing: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.by{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+
+    width: 100%;
+    height: 70px;
+
+    background-color: #a1a1a13f;
+
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }

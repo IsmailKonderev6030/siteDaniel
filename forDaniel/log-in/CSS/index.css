@@ -10,37 +10,30 @@ body{
     margin: 0;
     padding: 0;
 }
-
-.mainBody{
-    height: 100%;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .mainForm{
-    height: 50%;
-    width: 70%;
+    padding: 0;
+    margin: 0;
+
+    height: 70%;
+    width: 100%;
+    min-height: 500px;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .logo{
+    height: 30%;
     width: 100%;
-    max-width: 600px;
-    height: 200px;
+    max-height: 200px;
+    max-width: 700px;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    flex-basis: 33%;
 }
 
 .logoIMG{
@@ -49,9 +42,10 @@ body{
 }
 
 .inputs{
-    min-height: 80px;
-    width: 350px;
-    height: 80px;
+    width: 100%;
+    height: 35%;
+    max-height: 200px;
+    max-width: 550px;
 
     margin-top: 40px;
     padding-right: 15px;
@@ -59,8 +53,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    flex-basis: 33%;
 }
 
 .inputLine{
@@ -87,8 +79,10 @@ body{
 }
 
 .buttons{
-    width: 400px;
-    height: 60px;
+    width: 100%;
+    height: 35%;
+    max-height: 70px;
+    max-width: 400px;
 
     margin-top: 30px;
     padding-right: 15px;
@@ -97,28 +91,37 @@ body{
     flex-direction: row;
     align-items:center;
     justify-content: space-between;
-
-    flex-basis: 33%;
 }
 
 .button {
-    height: 55px;
+    height: 100%;
+    max-height: 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     border: none;
     border-radius: 10px;
-    color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
     transition: .1s linear;
-    background: #0202024d;
-    flex-basis: 49%;
+    background: #02020283;
+    flex-basis: 45%;
 }
 
 .button:hover {
     box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 2px #0000009a;
 }
 
-.button:active{
+.buttonSignUp{
+    background-color: #02020205;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.buttonSignUp:active{
     background-color: white;
+}
+
+.buttonLogIn:active {
+    background-color: white;
+    color: black;
 }
 
 .grayLine{
@@ -126,10 +129,11 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    align-self: flex-end;
 
     width: 100%;
-    height: 70px;
+    height: 15%;
+    min-height: 60px;
+
 
     background-color: #a1a1a13f;
     color: rgb(65, 65, 65);
@@ -144,10 +148,10 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    align-self: flex-end;
 
     width: 100%;
-    height: 70px;
+    height: 15%;
+    min-height: 60px;
 
     background-color: #a1a1a13f;
 

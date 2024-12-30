@@ -1,7 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="/log-in/CSS/index.css">
-        <script src="/log-in/JS/index.js"></script>
+        
+        <script src="https://unpkg.com/imask"></script>
     </head>
     <body>
         <a class="grayLine">working for money</a>
@@ -10,8 +11,8 @@
                 <img src="/log-in/images/logoMainPage.gif" alt="cofixLogo" class="logoIMG">
             </div>
             <div class="inputs">
-                <input type="text" placeholder="+7" class="inputLine userPhoneNumber">
-                <input type="password" placeholder="Password" class="inputLine userPass">
+                <input id="phoneInput" type="text" placeholder="+7" class="inputLine userPhoneNumber">
+                <input id="passInput"  type="text" placeholder="Password" class="inputLine userPass">
             </div>
             <div class="buttons">
                 <button type="button" class="button buttonLogIn">log in</button>
@@ -20,4 +21,5 @@
         </form>
         <a class="by">made by people</a>
     </body>
+    <script src="/log-in/JS/index.js"></script>
 </html>

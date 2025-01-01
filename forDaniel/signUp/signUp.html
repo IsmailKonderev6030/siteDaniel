@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/signUp/CSS/signUp.css">
+        
+        <script src="https://unpkg.com/imask"></script>
+    </head>
+    <body>
+        <a class="grayLine">I wanna more money</a>
+
+        <form class="mainInputsForm">
+            <input type="text" class="inputLine" id="nameInput" placeholder="Имя (обязательно)" maxlength="50">
+            <input type="text" class="inputLine" id="secondNameInput" placeholder="Фамилия (обязательно)" maxlength="50">
+            <input type="text" class="inputLine" id="birthdayInput" placeholder="01.01.1980 (обязательно)">
+            <select class="inputLine" id="genderSelect">
+                <option value="" selected disabled hidden>Пол</option>
+                <option value="man">Мужской</option>
+                <option value="woman">Женский</option>
+            </select>
+            <select class="inputLine" id="citizanshipSelect">
+                <option value="" selected disabled hidden>Гражданство</option>
+                <option value="russian">Россия</option>
+            </select>
+            <input type="text" class="inputLine" id="codeInput" placeholder="Код для регистрации (обязательно)" maxlength="10">
+            <input type="text" class="inputLine" id="telegramInput" placeholder="telegram без '@' (не обязательно)" maxlength="50">
+            <input type="text" class="inputLine" id="phoneInput" placeholder="+7 (обязательно)">
+            <input type="password" class="inputLine" id="passInput" placeholder="Пароль минимум 6 символов (обязательно)">
+            <input type="password" class="inputLine" id="passInput2" placeholder="Пароль (повторить)">
+            <button type="button" class="buttonSignUp" id="buttonSignUp">Зарегистрироваться</button>
+        </form>
+        <a class="by">made for people</a>
+    </body>
+    <script src="/signUp/JS/signUp.js"></script>
+</html>

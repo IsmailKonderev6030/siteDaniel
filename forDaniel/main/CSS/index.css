@@ -63,7 +63,7 @@ body{
 }
 
 .userPhoneNumber{
-    background-image :url("/mainPage/images/phone.ico");
+    background-image :url("/main/images/phone.ico");
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 5px;
@@ -71,7 +71,7 @@ body{
 }
 
 .userPass{
-    background-image :url("/mainPage/images/pass.ico");
+    background-image :url("/main/images/pass.ico");
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 5px;

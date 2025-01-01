@@ -46,10 +46,10 @@ elementButtonLogIn.addEventListener('click',function(){
         elementPassInput.style.cssText = "border-color: red";
     }
     else{
-        window.location.href = "http://cofix-lk.ru/logInPage/logInPage.html";
+        window.location.href = "http://cofix-lk.ru/logIn/logIn.html";
     }
 })
 
 elementButtonSignUp.addEventListener('click',function(){
-    window.location.href = "http://cofix-lk.ru/signUpPage/signUpPage.html";
+    window.location.href = "http://cofix-lk.ru/signUp/signUp.html";
 })
